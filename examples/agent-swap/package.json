@@ -9,7 +9,7 @@
     "wallet": "tsx src/wallet.ts",
     "typecheck": "tsc --noEmit",
     "test": "echo \"examples are exercised by e2e tests in packages\" && exit 0",
-    "build": "echo \"examples are not built\" && exit 0"
+    "build": "node init && echo \"examples are not built\" && exit 0"
   },
   "dependencies": {
     "@themoss/core": "workspace:*",
