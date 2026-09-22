@@ -3,9 +3,8 @@ dist/
 *.tsbuildinfo
 .DS_Store
 coverage/
-.env
-.env.*
 .pnpm-store/
+temp_auto_push.bat
 .npmrc
 .pnpm-cache/
 .pnpm-state/
@@ -14,3 +13,6 @@ coverage/
 !.claude/agents/
 /docs/research/
 /.agents/
+.gitignore
+branch_structure.json
+config.bat
