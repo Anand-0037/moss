@@ -6,7 +6,7 @@
     "node": ">=22"
   },
   "scripts": {
-    "build": "node init && pnpm -r build",
+    "build": "pnpm -r build",
     "test": "pnpm -r test",
     "test:offline": "MOSS_SKIP_E2E=1 pnpm test",
     "test:abi:online": "pnpm -r --if-present test:abi:online",
@@ -20,8 +20,6 @@
     "@biomejs/biome": "2.5.2",
     "@changesets/cli": "^2.31.0",
     "@types/node": "^22.20.0",
-    "dotenv": "^8.2.0",
-    "node-fetch": "^3.3.2",
     "typescript": "~5.9.0"
   }
 }
