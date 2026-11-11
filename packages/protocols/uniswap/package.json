@@ -1,7 +1,7 @@
 {
   "name": "@themoss/protocol-uniswap",
   "version": "0.1.0",
-  "description": "Moss protocol adapter for Uniswap v4 \u2014 exact-in single-hop swaps and quotes on Monad mainnet",
+  "description": "Moss protocol adapter for Uniswap v4 — exact-in single-hop swaps and quotes on Monad mainnet",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -14,7 +14,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "node init && tsup src/index.ts --format esm --dts --sourcemap --clean --target es2022",
+    "build": "tsup src/index.ts --format esm --dts --sourcemap --clean --target es2022",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "gen:abis": "tsx scripts/gen-abis.ts",
